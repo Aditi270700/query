@@ -41,3 +41,17 @@ def lastdata(request):
     print(data.stu_name)
     print(data.stu_email)
     print(data.stu_contact)
+
+# def order(request):
+#     data=Student.objects.order_by('stu_name')
+#     print(data)
+
+# def dec(request):
+#     data=Student.objects.order_by('-stu_name')
+#     print(data)
+
+
+def all(request):
+    data=Student.objects.order_by('-id')[0:2]
+    print(data)
+    
