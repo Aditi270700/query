@@ -20,10 +20,13 @@ from app import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('aditi/',views.aditi),
+    # path('aditi/',views.aditi),
    # path('alldata/',views.alldata),
-    path('filterdata',views.aditi),
-    path('values',views.aditi),
-    path('valueslist',views.aditi),
-    path('exclude',views.aditi),
+    # path('filterdata',views.aditi),
+    # path('values',views.aditi),
+    # path('valueslist',views.aditi),
+    # path('exclude',views.aditi),
+    # path('get',views.aditi),
+    # path('first/',views.firstdata),
+     path('last/',views.lastdata),
 ]
