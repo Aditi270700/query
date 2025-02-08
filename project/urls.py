@@ -29,6 +29,6 @@ urlpatterns = [
     # path('get',views.aditi),
     # path('first/',views.firstdata),
      path('last/',views.lastdata),
-    #  path('order_by/',views.order),
+    # path('order_by/',views.order),
      path('order_by/',views.all)
 ]
